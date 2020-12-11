@@ -1,0 +1,155 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  z-index: 1;
+  margin-left: 30px;
+  /*font-family: 'Fjalla One', sans-serif */
+  /*font-family: 'Acme', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#absolute-image {
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  box-shadow: 10px 10px 5px #0099cc;
+}
+
+.donate-button {
+  position: absolute;
+  border-radius: 5px;
+  color: Black;
+  background-color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 450px;
+  margin-left: 180px;
+}
+
+.flex-container {
+  background-color: white;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  border: white solid;
+}
+
+.big-font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.margin-var-left {
+  margin-left: 575px;
+  margin-top: 10px;
+}
+
+.margin-fish {
+  margin-top: 10px;
+}
+
+.margin-others {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.sticky {
+  position: sticky;
+  width: 100%;
+  background-size: cover;
+}
+
+.sticky-var {
+  z-index: 1000;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.plastic-exp{
+  margin-left: 50px;
+  margin-Top: 50px; 
+  margin-right: 50px;
+}
+
+.animals {
+  font-family: "Montserrat";
+  position: relative;
+}
+
+.heading {
+  font-size: 2.5vw;
+  font-weight: 900;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.paragraph {
+  font-size: 1.5vw;
+  margin-top: 3%;
+  margin-right: 9%;
+  margin-left: 3%;
+  line-height: 1.9;
+}
+
+.picture {
+  margin: 3%;
+  width: 35%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.fish {
+  display: flex;
+}
+
+.whales {
+  display: flex;
+}
+
+.turtles {
+  display: flex;
+}
+
+.birds {
+  display: flex;
+}
+
+.donations {
+  position: absolute;
+  font-family: "Montserrat";
+}
